@@ -1,4 +1,45 @@
-This is a solid project for your portfolio! Since you are a Computer Engineering student at IKU, having a professional, well-structured README is the best way to showcase your coding logic to future employers or professors.Here is a clean, modern, and professional README.md designed specifically for your GitHub repository.🚀 Office Hour Appointment SystemCSE2002 Project | 2023-2024A robust, file-based management system written in C to streamline the scheduling process between students and faculty. This project utilizes Linked Lists and Binary File I/O to manage office hours and appointments efficiently.📌 FeaturesThe system provides tailored functionalities for two types of users:👨‍🏫 For TeachersInsert Office Hours: Add new availability slots. The system automatically sorts them by ID using a linked list.Update Records: Modify the day, start time, or end time of existing slots.Persistent Storage: Save the entire schedule to a teacher-specific binary file (.dat) for data integrity.Inventory View: Print a clean, tabular summary of all currently registered office hours.🎓 For StudentsView Availability: Load a specific teacher's schedule from their records.Book Appointments: Search for a slot by ID and create a formal appointment.Appointment Logging: The system generates an appointment.txt file as a persistent record of the booking.🛠 Technical ImplementationThis project demonstrates several core Computer Engineering concepts:Data Structures: Custom struct definitions and dynamic Linked Lists for memory-efficient data management.File Handling: Implementation of both Binary (wb, rb) for data storage and Text file processing for logs.Sorting Algorithms: Insertion logic that maintains a sorted list based on id_number.Input Validation: Safe string handling via custom read_line functions to prevent buffer overflows.📂 Function OverviewFunctionDescriptioninsert_office_hourPrompts for details and performs a sorted insertion into the linked list.store_office_hourExports the linked list to a binary file named after the teacher.update_office_hourLocates a specific ID and allows modification of time/day.appointmentsClears the current list and populates it with data from a teacher's file.create_appointmentLinks a student name to a slot and appends it to the global log.read_lineA utility function for robust, null-terminated user input.🚀 How to RunClone the repository:Bashgit clone https://github.com/Ferdaws-c/Office-Hour-Appointment-system-CSE2002_Project_2023-2024-.git
-Compile the code:Use any C compiler (GCC recommended):Bashgcc main.c -o office_system
-Execute:Bash./office_system
-📷 Screenshots(Optional: Since you have Student.jpeg.png and Teacher.jpeg.png in your repo, you can display them here!)Student ViewTeacher View👤 DeveloperFerdaws Computer Engineering Student at Istanbul Kultur University (IKU)
+<img width="686" height="295" alt="Capture" src="https://github.com/user-attachments/assets/405f56ab-da91-4286-9430-07f041de10a8" />🚀 Office Hour Appointment System
+CSE2002 Project | 2023-2024
+
+A robust, file-based management system written in C to streamline the scheduling process between students and faculty. This project utilizes Linked Lists and Binary File I/O to manage office hours and appointments efficiently.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📌 Features
+The system provides tailored functionalities for two types of users:
+
+👨‍🏫 For Teachers
+Insert Office Hours: Add new availability slots. The system automatically sorts them by ID using a linked list.
+
+Update Records: Modify the day, start time, or end time of existing slots.
+
+Persistent Storage: Save the entire schedule to a teacher-specific binary file (.dat) for data integrity.
+
+Inventory View: Print a clean, tabular summary of all currently registered office hours.
+
+🎓 For Students
+View Availability: Load a specific teacher's schedule from their records.
+
+Book Appointments: Search for a slot by ID and create a formal appointment.
+
+Appointment Logging: The system generates an appointment.txt file as a persistent record of the booking.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+🛠 Technical Implementation
+This project demonstrates several core Computer Engineering concepts:
+
+Data Structures: Custom struct definitions and dynamic Linked Lists for memory-efficient data management.
+
+File Handling: Implementation of both Binary (wb, rb) for data storage and Text file processing for logs.
+
+Sorting Algorithms: Insertion logic that maintains a sorted list based on id_number.
+
+Input Validation: Safe string handling via custom read_line functions to prevent buffer overflows.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<img width="686" height="295" alt="Capture" src="https://github.com/user-attachments/assets/1a313209-2511-4df4-b1bb-f4b6f3678117" />
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Pictures
+
+<img width="957" height="1010" alt="Teacher jpeg" src="https://github.com/user-attachments/assets/dada11e2-e902-4c42-855d-bf145d7b4666" />
+<img width="952" height="820" alt="Student jpeg" src="https://github.com/user-attachments/assets/1cd6dcb0-2b74-439a-9924-663483d7c635" />
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+👤 Developer
+Ferdaws Computer Engineering Student at Istanbul Kultur University (IKU)
+
