@@ -1,4 +1,4 @@
-<img width="686" height="295" alt="Capture" src="https://github.com/user-attachments/assets/405f56ab-da91-4286-9430-07f041de10a8" />🚀 Office Hour Appointment System
+🚀 Office Hour Appointment System
 CSE2002 Project | 2023-2024
 
 A robust, file-based management system written in C to streamline the scheduling process between students and faculty. This project utilizes Linked Lists and Binary File I/O to manage office hours and appointments efficiently.
